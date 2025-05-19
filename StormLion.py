@@ -34,11 +34,11 @@ def DDoS():
         else:
             break;
     print(f"performing DdoS on {trget} on PORT {port} using FAKE IP {fake} ")
-    print(Fore.YELLOW + Style.BRIGHT + "[INFO!]" + Fore.WHITE + " if the above information is incorrect,you can restart the script and again enter the details correctly!!")
-   # print(Fore.YELLOW + Style.BRIGHT + "[INFO!]" + Fore.WHITE + " Press CTRL + C and press Enter to Exit!")
-    #print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" + Fore.WHITE + "Press CTRL + C and press enter to exit!!")
+    print(Fore.GREEN + Style.BRIGHT + "[INFO!]" + Fore.WHITE + " if the above information is incorrect,you can restart the script and again enter the details correctly!!")
+   # print(Fore.GREEN + Style.BRIGHT + "[INFO!]" + Fore.WHITE + " Press CTRL + C and press Enter to Exit!")
+    #print(Style.BRIGHT + Fore.GREEN + "[INFO!]" + Fore.WHITE + "Press CTRL + C and press enter to exit!!")
     time.sleep(4)
-    print(Fore.MAGENTA + Style.BRIGHT + "DDos starting in ~")
+    print(Fore.GREEN + Style.BRIGHT + "DDos starting in ~")
     print("seconds : 3")
     time.sleep(1)
     print("seconds : 2")
@@ -83,25 +83,25 @@ def print_green_centered_art():
                      ©© © ©      ©©        ©© ©         ©©     ©
                      °°          °°         °°          °°     °
                       °          °           °           °     ° '''
-    red_art = f"{Fore.BLUE}{art}{Style.RESET_ALL}"  # Set the text color to red
-    print(red_art.center(80))  # Adjust the width (80 characters) to match your terminal size
-    #red_art2 = f"{Fore.RED}{art2}{Style.RESET_ALL}"
+    green_art = f"{Fore.BLUE}{art}{Style.RESET_ALL}"  # Set the text color to red
+    print(green_art.center(80))  # Adjust the width (80 characters) to match your terminal size
+    #green_art2 = f"{Fore.GREEN}{art2}{Style.RESET_ALL}"
     art2 = '''||================================================================||
 ||     B R I G A D E  A T T A C K E R  S N I P E R  E L I T E      
 ||                     W I T H   P A L E S T I N E                 
 ||               BIRRUH BIDAM               NAFDIKA YAA AQSHO
 ||============================ 𒈞By Khanza𒈞 ===========================||                                                          
 ''' 
-    red_art2 = f"{Fore.YELLOW}{art2}{Style.RESET_ALL}"
+    green_art2 = f"{Fore.YELLOW}{art2}{Style.RESET_ALL}"
     print(red_art2.center(80))
-    print(Fore.YELLOW + Style.BRIGHT + "[Khanza's dedication and struggle for PALESTINE]")
+    print(Fore.GREEN + Style.BRIGHT + "[Khanza's dedication and struggle for PALESTINE]")
 if __name__ == "__main__":
     print_green_centered_art()
 def menu():
    # print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
-    print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
+    print(Style.BRIGHT + Fore.GREEN + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
     print(Fore.WHITE + Style.BRIGHT + "——————————————————————————————————————————————————————————————————————")
-    print(Fore.YELLOW + Style.BRIGHT + "Silahkan ketik 1 untuk melanjutkan...")
+    print(Fore.GREEN + Style.BRIGHT + "Silahkan ketik 1 untuk melanjutkan...")
     print(Fore.BLUE + Style.BRIGHT + "1. DDos a website.  [1]")
     print(Fore.WHITE + Style.BRIGHT + "2. exit.            [2]")
     print("Enter your options .. [e.g 1,2]") 
