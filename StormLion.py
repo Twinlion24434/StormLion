@@ -93,7 +93,7 @@ def print_green_centered_art():
 ||============================ 𒈞By Khanza𒈞 ===========================||                                                          
 ''' 
     green_art2 = f"{Fore.YELLOW}{art2}{Style.RESET_ALL}"
-    print(red_art2.center(80))
+    print(green_art2.center(80))
     print(Fore.GREEN + Style.BRIGHT + "[Khanza's dedication and struggle for PALESTINE]")
 if __name__ == "__main__":
     print_green_centered_art()
