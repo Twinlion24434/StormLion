@@ -1,4 +1,4 @@
-https://github.com/Twinlion24434/StormLion.git
+git clone https://github.com/Twinlion24434/StormLion.git
 
 cd StormLion
 
