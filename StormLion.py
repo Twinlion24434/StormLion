@@ -92,13 +92,13 @@ def print_green_centered_art():
 ||               BIRRUH BIDAM               NAFDIKA YAA AQSHO
 ||============================ 𒈞By Khanza𒈞 ===========================||                                                          
 ''' 
-    green_art2 = f"{Fore.YELLOW}{art2}{Style.RESET_ALL}"
+    green_art2 = f"{Fore.GREEN}{art2}{Style.RESET_ALL}"
     print(green_art2.center(80))
     print(Fore.GREEN + Style.BRIGHT + "[Khanza's dedication and struggle for PALESTINE]")
 if __name__ == "__main__":
     print_green_centered_art()
 def menu():
-   # print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
+   # print(Style.BRIGHT + Fore.GREEN + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
     print(Style.BRIGHT + Fore.GREEN + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
     print(Fore.WHITE + Style.BRIGHT + "——————————————————————————————————————————————————————————————————————")
     print(Fore.GREEN + Style.BRIGHT + "Silahkan ketik 1 untuk melanjutkan...")
